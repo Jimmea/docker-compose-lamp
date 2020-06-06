@@ -1,10 +1,10 @@
 #  LAMP stack built with Docker Compose
-
+Base on https://github.com/sprintcube/docker-compose-lamp
   
 
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
 
-  
+ 
 
 A basic LAMP stack environment built using Docker Compose. It consists of the following:
 
