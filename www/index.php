@@ -31,7 +31,7 @@
                                 <li>PHP <?= phpversion(); ?></li>
                                 <li>
                                     <?php
-                                    $link = mysqli_connect("database", "root", "tiger", null);
+                                    $link = mysqli_connect("database", "root", "root", null);
 
 /* check connection */
                                     if (mysqli_connect_errno()) {
@@ -56,6 +56,7 @@
                                 <li><a href="http://localhost:8080">phpMyAdmin</a></li>
                                 <li><a href="http://localhost/test_db.php">Test DB Connection with mysqli</a></li>
                                 <li><a href="http://localhost/test_db_pdo.php">Test DB Connection with PDO</a></li>
+                                <li><a href="http://localhost/test_redis.php">Test Redis</a></li>
                             </ul>
                         </div>
                     </div>
